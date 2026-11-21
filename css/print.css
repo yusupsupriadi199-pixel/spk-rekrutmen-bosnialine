@@ -1,0 +1,80 @@
+/* ==========================================================================
+   PRINT STYLESHEET
+   Format cetak dokumen resmi hasil seleksi SPK Toko Komputer BOSNIALine
+   ========================================================================== */
+
+@media print {
+  body {
+    background: #ffffff !important;
+    color: #000000 !important;
+    font-family: 'Times New Roman', Times, serif !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  body::before,
+  body::after,
+  .sidebar,
+  .top-navbar,
+  .toast-container,
+  .btn,
+  .no-print,
+  .modal-overlay,
+  .quick-role-dropdown {
+    display: none !important;
+  }
+
+  .main-wrapper {
+    margin-left: 0 !important;
+    padding: 0 !important;
+  }
+
+  .page-container {
+    padding: 0 !important;
+  }
+
+  .page-view {
+    display: none !important;
+  }
+
+  #view-reports {
+    display: block !important;
+  }
+
+  .card {
+    border: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+
+  .report-paper {
+    box-shadow: none !important;
+    padding: 0 !important;
+    width: 100% !important;
+  }
+
+  .report-kop {
+    border-bottom: 2px solid #000000 !important;
+  }
+
+  .report-table th,
+  .report-table td {
+    border: 1px solid #000000 !important;
+    color: #000000 !important;
+  }
+
+  .badge {
+    border: none !important;
+    color: #000000 !important;
+    background: transparent !important;
+    padding: 0 !important;
+    font-weight: bold !important;
+  }
+
+  @page {
+    size: A4 portrait;
+    margin: 1.5cm;
+  }
+}

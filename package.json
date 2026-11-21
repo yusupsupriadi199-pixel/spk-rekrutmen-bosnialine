@@ -1,0 +1,20 @@
+{
+  "name": "spk-rekrutmen-bosnialine",
+  "version": "1.0.0",
+  "description": "Sistem Pendukung Keputusan (SPK) Rekrutmen Karyawan Toko Komputer BOSNIALine Tenjolaya Menggunakan Metode SAW (Simple Additive Weighting)",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx serve -l 3000 .",
+    "dev": "npx serve -l 3000 ."
+  },
+  "keywords": [
+    "spk",
+    "saw",
+    "rekrutmen",
+    "toko-komputer",
+    "bosnialine",
+    "decision-support-system"
+  ],
+  "author": "Yusup - Semester 5",
+  "license": "MIT"
+}
